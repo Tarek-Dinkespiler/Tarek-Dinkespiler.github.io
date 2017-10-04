@@ -1,0 +1,205 @@
+body
+{
+	height: 98vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: space-between;
+	flex-wrap: nowrap;
+
+	background-color:white;
+	text-decoration: none;
+	font-family: arial,sans-serif;
+    font-size: small;
+
+}
+
+nav
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+	align-items: center;
+}
+
+.link
+{
+	padding: 0.7em;
+}
+
+#content
+{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+#logo
+{
+	background-image: url(https://www.google.fr/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png);
+	background-repeat: no-repeat;
+	background-size:272px 92px;
+	height:92px;
+	width:272px
+}
+
+#pays
+{
+    color: #4285f4;
+    font: 16px/16px roboto-regular, arial, sans-serif;
+    left: 215px;
+    position: relative;
+    top: 76px;
+    white-space: nowrap;
+}
+
+#searchbar
+{
+
+	margin-top: 2em;
+	margin-bottom: 2em;
+	
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+
+
+
+	background-color: #FFF;
+    border: 1px solid silver;
+    border-radius: 2px;
+    box-shadow: 2px 2px 2px silver;
+    padding-top: 5px;
+    padding-right: 9px;
+    padding-bottom: 0px;
+    padding-right: 9px;
+}
+
+#input
+{
+	width: 25%;
+	min-width: 500px; 
+	background-color: #FFF;
+	border: 0 solid black;
+	padding-left: 1em;
+	word-wrap:overflow;	
+}
+
+
+#go
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+
+button[type=button]
+{
+
+   height: 36px;
+   line-height: 27px;
+   box-sizing: border-box;
+   padding: 2px 6px 3px;
+   border-width: 2px;
+   border-style: outset;
+   background-color: #f2f2f2;
+   border: 1px solid #f2f2f2;
+   border-radius: 2px;
+   color: #757575;
+   cursor: default;
+   font-family: arial,sans-serif;
+   font-weight: bold;
+   margin: 11px 4px;
+   min-width: 54px;
+   padding: 0 16px;
+   text-align: center;
+   display: inline-block;
+
+}
+
+#go button[type=button]:hover
+{
+   border: 1px solid #c6c6c6;
+   box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+   color: #222;
+}
+
+footer
+{
+	display: flex;
+	justify-content: space-between;
+	flex-direction: row;
+
+
+	background: #f2f2f2;
+	border-top: 1px solid #e4e4e4;
+	height: 30px;
+}
+#commerce
+{
+	display: flex;
+	flex-direction: row;
+}
+#legal
+{
+	display: flex;
+	flex-direction: row;
+}
+#apps
+{
+	opacity: 0.5;
+}
+#apps:hover
+{
+	opacity: 1;
+}
+
+a
+{
+	text-decoration: none;
+}
+
+a:hover
+{
+	text-decoration: underline;
+}
+
+header a
+{
+	text-decoration: none;
+	color: #000;
+}
+
+header a:hover
+{
+	text-decoration: underline;
+}
+
+nav a
+{
+	color: rgb(102,102,102);
+}
+
+nav a:active
+{
+	color: rgb(102,102,102);
+}
+
+nav button[type=button]
+{
+
+   background-color: #4387fd;
+   color: #FFF;
+}
+footer a
+{
+	color: rgb(102,102,102);
+}
+
+footer a:active
+{
+	color: #dd4b39;
+}
