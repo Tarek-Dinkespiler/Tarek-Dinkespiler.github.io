@@ -1,0 +1,138 @@
+@font-face {
+    font-family: 'ambleregular';
+    src: url('fonts/Amble-Regular-webfont.eot');
+    src: url('fonts/Amble-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/Amble-Regular-webfont.woff2') format('woff2'),
+         url('fonts/Amble-Regular-webfont.woff') format('woff'),
+         url('fonts/Amble-Regular-webfont.ttf') format('truetype'),
+         url('fonts/Amble-Regular-webfont.svg#ambleregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+    font-family: 'amblelight';
+    src: url('fonts/Amble-Light-webfont.eot');
+    src: url('fonts/Amble-Light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/Amble-Light-webfont.woff2') format('woff2'),
+         url('fonts/Amble-Light-webfont.woff') format('woff'),
+         url('fonts/Amble-Light-webfont.ttf') format('truetype'),
+         url('fonts/Amble-Light-webfont.svg#amblelight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+*
+{
+	font-family: 'amblelight',Verdana,Arial; 
+	text-align: justify;
+}
+
+body
+{
+
+    margin:0; 
+    padding:0; 
+    height:100%; 
+    width:100%;
+
+	background-image: url("images/bg.jpg");
+
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+
+	color: rgb(170,170,170);
+}
+.alpha
+{
+    height: 100%;
+	width: 100%;
+    background-color: rgba(0,0,0,0.6);
+}
+
+
+
+.content
+{
+	background-color: rgba(20,20,20,0.6);
+	margin-left: auto;
+  	margin-right: auto;
+	width:1000px;
+	padding-top: 5em;
+	padding-bottom: 5em;
+	padding-left: 5em;
+*/}
+
+a
+{
+	color: rgb(60,120,210);
+	text-decoration: none;
+}
+a:hover
+{
+	text-decoration: underline;
+}
+a:visited
+{
+	color: rgb(120,60,160);
+	text-decoration: overline;
+}
+
+#banner
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+	align-items: center;
+	flex-wrap: nowrap;
+	width:1000px;
+}
+
+#titre
+{
+	width:90%;
+}
+
+#text
+{
+	padding-top: 2em;
+}
+#pic
+{
+	width:10%;
+	padding-right: 5em;
+}
+#shadow
+{
+	box-shadow: 0.7em 0.7em 0.7em silver;
+	float: right;
+}
+
+h1, h1 + p
+{
+	font-family: 'ambleregular',Verdana,Arial;
+	color: rgb(230,230,230);
+	text-align: center;
+}
+/*
+{
+	font-family: 'ambleregular',Verdana,Arial;
+	color: rgb(230,230,230);
+	text-align: center;
+}*/
+
+
+h2
+{
+	font-family: 'ambleregular',Verdana,Arial;
+	border-bottom: 3px rgb(190,190,190) solid;  
+	color: white;
+}
+
+h3
+{
+	font-family: 'ambleregular',Verdana,Arial;
+	color: rgb(190,190,190);
+
+}
+
