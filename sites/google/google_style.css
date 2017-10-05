@@ -18,8 +18,31 @@ nav
 {
 	display: flex;
 	flex-direction: row;
-	justify-content: flex-end;
+	justify-content: space-between;
 	align-items: center;
+}
+#headlinks
+{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+#pushedby
+{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+
+	margin-left: 2em;
+	padding:0.2em;
+	
+	border-left: 0.5em ;
+	border-top: 0;
+	border-right:0;
+	border-bottom: 0;
+	border-style: solid ;	
+	border-color: rgb(102,102,102);
+	color: rgb(102,102,102);
 }
 
 .link
