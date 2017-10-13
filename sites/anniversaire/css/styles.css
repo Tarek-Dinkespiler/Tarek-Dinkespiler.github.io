@@ -1,0 +1,102 @@
+@font-face 
+{
+	font-family:"Coke4U";
+	src:url("../fonts/Coke4U.eot?") format("eot"),
+	url("../fonts/Coke4U.woff") format("woff"),
+	url("../fonts/Coke4U.ttf") format("truetype"),
+	url("../fonts/Coke4U.svg#Coke4U") format("svg");
+	font-weight:normal;
+	font-style:normal;}
+
+
+body
+{
+	width: 98vw;
+	height: 98vh;
+
+
+	background-image: url("../img/bg1.jpg");
+
+
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center; 
+
+	margin: 50px;
+
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: center;
+}
+
+h1
+{
+	font-size: 14pt;
+}
+
+#alpha
+{
+	position:relative;
+
+	background-color: rgba(0,0,0,0.7);
+	padding: 20px;
+
+	margin: 50px;
+
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: center;
+
+}
+.rectangle
+{
+	
+
+	width: 30%;
+	min-width: 300px;
+	height:50px;
+
+	margin: 15px;
+
+	border-radius: 5px;
+	border: 3px solid black;
+
+	font-size: 12pt;
+}
+
+#special_day
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+
+	padding: 5px;
+
+	background-color: #FFF;
+}
+
+#click_me
+{
+	border-radius: 5px;
+	background-color: silver;
+	border: 1px solid black;
+}
+
+#great
+{
+	background-color: silver;
+}
+#today
+{
+	background-color: silver;
+}
+#coke
+{
+	background-color: #cb3d2c;
+	color: white;
+	font-family: 'Coke4U';
+}
+
